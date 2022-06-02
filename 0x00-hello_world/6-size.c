@@ -5,7 +5,7 @@
   * Return: Always 0 (Success)
   */
 int main(void)
-{	
+{
 	int i;
 	long int l;
 	long long int m;
@@ -18,4 +18,4 @@ int main(void)
 	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(m));
 	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
-}	
+}
