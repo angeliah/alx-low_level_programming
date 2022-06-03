@@ -2,8 +2,10 @@
 #include <time.h>
 #include<stdio.h>
 /**
-  *Main - evaluates random number and returns whether it
-  * is a positive , negative or it is a zero.
+  *main - entry point
+  *
+  *Description: evaluates random number and returns whether it
+  *is a positive , negative or it is a zero.
   *
   *Return: 0 on success
   */
