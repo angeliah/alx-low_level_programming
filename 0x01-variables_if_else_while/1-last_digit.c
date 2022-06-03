@@ -2,9 +2,13 @@
 #include <time.h>
 #include<stdio.h>
 /* more headers goes there */
-/**Main function-Assigns a random number to a variable and prints the last digit of the number.
-  *Return value -Always 0 on success*/
-
+/**
+  * Main-Assigns a random number to a
+  *variable,prints the last digit of the variable and 
+  *determines if the last digit is greate than 5,
+  *is equal to 5 or is zero..
+  *Return value -Always 0 on success
+  */
 int main(void)
 {
 	int n;

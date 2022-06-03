@@ -5,7 +5,7 @@
   *main- entry point
   *Description-evaluates random number and returns whether it
   * is a positive , negative or it is a zero.
-  *Return value of main-Returns 0 on success
+  *Return-0 on success
   */
 int main(void)
 {
