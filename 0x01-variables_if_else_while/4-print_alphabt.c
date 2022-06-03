@@ -1,9 +1,10 @@
 #include<stdio.h>
 
 /**
-  *Main - entry point
+  *main - entry point
   *
-  * Description: prints alphabets in lower case except q and e
+  * Description: prints all letters of the alphabet
+  * in lower case except q and e.
   *
   * Return: 0 on success
   */
