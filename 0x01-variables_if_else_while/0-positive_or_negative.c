@@ -2,8 +2,7 @@
 #include <time.h>
 #include<stdio.h>
 /**
-  *main- entry point
-  *Description-evaluates random number and returns whether it
+  *Main-evaluates random number and returns whether it
   * is a positive , negative or it is a zero.
   *Return-0 on success
   */

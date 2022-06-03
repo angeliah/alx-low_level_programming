@@ -3,11 +3,9 @@
 #include<stdio.h>
 /* more headers goes there */
 /**
-  * Main-Assigns a random number to a
-  *variable,prints the last digit of the variable and 
-  *determines if the last digit is greate than 5,
-  *is equal to 5 or is zero..
-  *Return value -Always 0 on success
+  * Main-determines if the last digit of a random number
+  *is greater than or less than 5 or is zero..
+  *Return-0 on success
   */
 int main(void)
 {
