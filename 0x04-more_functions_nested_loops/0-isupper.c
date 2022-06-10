@@ -8,19 +8,12 @@
   */
 int _isupper(int c)
 {
-	char c;
-
-	c = 'A';
-
-
-	if (c <= 'Z'; c++)
+	if (c >= 'A' && c <= 'Z')
 	{
-		_putchar (c: );
 		return (1);
 	}
 	else
 	{
-		_putchar(c: );
 		return (0);
 	}
 	_putchar('n\');
