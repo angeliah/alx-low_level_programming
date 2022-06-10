@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_triangle -  function that prints a square, followed by a new line.
- * @size: is the size of the square
+ * print_triangle -  function that prints a triangle, followed by a new line.
+ * @size: is the size of the triangle
  */
-void print_triangle(int size);
+void print_triangle(int size)
 {
 	int i, j;
 
