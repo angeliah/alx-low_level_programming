@@ -5,7 +5,7 @@
   *@a: first input value
   *@b: second input value
   *
-  *Return: result of mul
+  *Return: product of a and b
   */
 int mul(int a, int b)
 {
