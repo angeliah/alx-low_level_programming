@@ -4,10 +4,16 @@
  * _strlen - function that returns the length of a string.
  * @s: string whose lngth is to be returned
  *
- * Return: always 0 (success)
+ * Return: length of string
  */
 int _strlen(char *s)
 {
-	_putchar (sizeof(s));
-	return (0);
+	int count = 0;
+
+	while (*s != '\0')
+	{
+		count++;
+		s++;
+	}
+	return (count);
 }
