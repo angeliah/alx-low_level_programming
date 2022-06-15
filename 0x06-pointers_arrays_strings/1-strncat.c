@@ -6,6 +6,7 @@
  * @dest: srting destination
  * @n: number of bytes to receive
  *
+ * Return: char
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -18,7 +19,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		if (j < n)
 		{
-			*(dest + i ) = *(src + j);
+			*(dest + i) = *(src + j);
 			i++;
 		}
 		j++;
