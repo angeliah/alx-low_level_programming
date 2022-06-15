@@ -19,12 +19,12 @@ int _strcmp(char *s1, char *s2)
 			result = *(s1 + i) - *(s2 + i);
 			return (result);
 		}
-		else if (*(s1 + i) < *(s2 + i)
-				{
-				result = *(s1 + i) - *(s2 + i);
-				return (result);
-				}
-				i += 1;
+		else if (*(s1 + i) < *(s2 + i))
+		{
+			result = *(s1 + i) - *(s2 + i);
+			return (result);
+		}
+		i += 1;
 	}
 	return (0);
 }
