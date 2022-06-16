@@ -2,36 +2,34 @@
 
 /**
  * cap_string - function that capitalizes all words of a string.
- *@s: Pointer to Char
+ *@n: input string
  *Return: char.
  */
-char *cap_string(char *s)
+char *cap_string(char *n)
 {
-	int i = 0;
+	int i, x;
+	int cap = 32;
 
-	while (*(s + i) != '\0')
+	int separators[] = {',', ';', '.', '?', '"',
+		'(', ')', '{', '}', ' ', '\n', '\t'};
+
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		if (i == 0 && (*(s + i) >= 97 && *(s + i) <= 122))
+		if (n[i] >= 'a' && n[i] <= 'z')
 		{
-			*(s + i) = *(s + i) - ' ';
-			i++;
+			n[i] = n[i] - cap;
 		}
-		if (*(s + i) == ' ' || *(s + i) == '\n' || *(s + i) == '\t'
-		   || *(s + i) == ',' || *(s + i) == ';' || *(s + i) == '!'
-		   || *(s + i) == '?' || *(s + i) == '"' || *(s + i) == '('
-		   || *(s + i) == ')' || *(s + i) == '{' || *(s + i) == '}'
-		   || *(s + i) == '.')
+		cap = 0;
+
+		for (x = 0; x <= 12; x++)
 		{
-			i++;
-			if (*(s + i) >= 97 && *(s + i) <= 122)
+			if (n[i] == separators[x])
 			{
-				*(s + i) = *(s + i) - ' ';
-			}
-			else
-			{
-				i++;
+				x = 12;
+				cap = 32;
 			}
 		}
+
 	}
-	return (s);
+	return (n);
 }
