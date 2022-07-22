@@ -3,7 +3,7 @@
 #include<stdlib.h>
 
 /**
- * main -program that multiplies two numbers
+ * main - p rogram that multiplies two numbers
  * @argc: number of arguments passed to main
  * @argv: argumets passed to main as an array of strins
  * Retun: 0
@@ -19,6 +19,5 @@ int main(int argc, char *argv[])
 		}
 		else
 			printf("Error\n");
-		
 		return (1);
 }
