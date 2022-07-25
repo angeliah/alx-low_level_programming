@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * malloc_checked - allocate dynamic memory using malloc
