@@ -4,7 +4,7 @@ import ctypes
 
 
 
-cops = ctypes.CDLL('./libcalci.so')
+cops = ctypes.CDLL('./100-operations.so')
 
 a = random.randint(-111, 111)
 
