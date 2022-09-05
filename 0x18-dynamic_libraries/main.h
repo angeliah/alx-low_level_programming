@@ -10,7 +10,7 @@ int add(int one, int two);
 
 int mul(int a, int b);
 
-int div_one(int a, int b);
+int div(int a, int b);
 
 int sub(int a, int b);
 
