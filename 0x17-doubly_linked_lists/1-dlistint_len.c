@@ -6,17 +6,13 @@
  * Return: number of elements in a dlistint list
  *
  */
-size_t dlistint_len(const dlistint_t *h);
+size_t dlistint_len(const dlistint_t *h)
 {
-	size_t count = 0;
-	dlistint_t *temp = (dlistint_t *)h;
+	size_t i = 0;
 
-	if (h ==  NULL)
-		return (0);
-	while (temp != NULL)
+	while (h != NULL)
 	{
-		temp = temp->next;
-		count++;
+		i++;
+		h = h->next;
 	}
-	return (count);
-}
+	return(i);}
